@@ -1,13 +1,15 @@
+body{
+    background-color:coral;
+}
 h1 {
     color: blue;
-}
-
-h2 {
-    color: #46484c
+    text-align: center;
 }
 
 p {
-    color: #8b8b8bcc
+    color: #8b8b8bcc;
+    font-family: verdana;
+    font-size: 20px;
 }
 
 button {
@@ -15,6 +17,55 @@ button {
     background-color: #025157;
 }
 
-body {
-    background-color: #fffbf7
+.header {
+    margin: 40px 20px 0px 20px;
+    font-size: 0;
+    line-height: 45px;
+    font-family: sans-serif;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100px;
+  }
+
+li {
+    display: inline;
+  } 
+
+.logo {
+    width:15%;
+}
+
+.navbar {
+    width:70%;
+    text-align: left;
+    color: green;
+}
+
+.actions {
+    width:15%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.menu{
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.btn {
+    color:white;
+    background-color: #67b54b;
+    margin-top: 20px;
+    padding: 12px 14px 12px 14px;   
+    border: 0;
+    border-radius: 5px;
 }
