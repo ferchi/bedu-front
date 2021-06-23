@@ -1,119 +1,183 @@
-
 h2 {
-    color: #46484c;
+  color: #46484c;
 }
 
 p {
-    color: #8b8b8bcc
+  color: #8b8b8bcc;
 }
 
 button {
-    color: #fff;
-    background-color: #025157;
+  color: #fff;
+  background-color: #025157;
 }
 
 body {
-    background-color: #fffbf7
+  background-color: #fffbf7;
 }
 
 .publish {
-    display: flex;
-    width: 70%;
-    margin: 100px auto;
-    align-items: center;
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
 }
-.publish  h1 {
-    color: #025157;
-    font-family: Roboto;
-    font-size: 40px;
+.publish h1 {
+  color: #025157;
+  font-family: Roboto;
+  font-size: 40px;
 }
-.parrafo{
-    color: #343434;
+.parrafo {
+  color: #343434;
 }
-.preform{
-    color: #025157;
+.preform {
+  color: #025157;
 }
 
 .publish video {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .publish img {
-    width: 120px;
-    margin-top: 10px;
-  }
+  width: 120px;
+  margin-top: 10px;
+}
 
-  .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 0;
-    height: 45px;
-    font-family: sans-serif;
-  }
-  
-  .fixed-header {
-      position: fixed;
-      background-color: white;
-      top: 0;
-      left: 0;
-      right: 0;
-  }
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
+}
 
-  .header > * {
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 45px;
-  }
-  
-  li {
-    display: inline;
-  }
-  
-  .logo {
-    width: 15%;
-  }
-  
-  .logo > img {
-    height: 100%;
-  }
-  
-  .navbar {
-    width: 70%;
-    text-align: center;
-    color: #025157;
-  }
-  
-  .menu-item {
-    display: inline;
-    margin-right: 25px;
-    margin-left: 25px;
-  }
-  
-  .actions {
-    width: 15%;
-    text-align: right;
-    font-size: 14px;
-  }
-  
-  .actions > * {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  
-  .actions a {
-    color: #67b54b;
-  }
-  
-  .actions button {
-    color: white;
-    background-color: #67b54b;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: 0;
-    border-radius: 5px;
-  }
+.fixed-header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+li {
+  display: inline;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
+  color: #025157;
+}
+
+.menu-item {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+}
+
+.actions > * {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.actions a {
+  color: #67b54b;
+}
+
+.actions button {
+  color: white;
+  background-color: #67b54b;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 0;
+  border-radius: 5px;
+}
+.postwork {
+  display: flex;
+  background-color: #a1d683;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5% 15%;
+}
+
+.postwork button{
+  color: white;
+  background-color: #025157;
+  font-size: 14px;
+  height: 45px;
+  font-weight: 600;
+  padding: 12px 12px 6px;
+  border-radius: 8px;
+}
+
+.text h1{
+  color: #025157;
+  font-size: 50px;
+}
+
+.text p{
+  color: #3c4634;
+}
+
+.card button {
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin-left: 10%;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+
+.container {
+  padding: 2px 16px;
+}
+
+.logo-container{
+  position: absolute;
+  bottom: -950px;
+  right: 280px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot{
+  display: flex;
+  align-items: center;
+}
+
+.foot img {
+  margin-right: 10px;
+}
