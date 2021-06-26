@@ -162,7 +162,7 @@ li {
 
 .logo-container{
   position: absolute;
-  bottom: -950px;
+  bottom: -1720px;
   right: 280px;
   width: 100px;
   height: 100px;
@@ -180,4 +180,68 @@ li {
 
 .foot img {
   margin-right: 10px;
+}
+
+main{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.features{
+  /* grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 330px); */
+  /* grid-template-columns: 300px 300px; */
+  /* grid-template-columns: repeat(2,300px); */
+  /* grid-template-columns: 500px 1fr; */
+  /* grid-template-columns: 1fr 1fr; */
+  font-family: Roboto;
+  display: grid;
+  grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  background-color: #025157;
+  padding: 5% 10%;
+}
+
+.feature-art {
+  display: flex;
+  align-items: center;
+  margin: 0 15px 30px 15px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.feature-art > .content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.feature-art .content img{
+  width: 50px;
+}
+.feature-art .content h3{
+  font-size: 25px;
+  font-weight:500;
+  
+}
+.feature-art .content p{
+  font-size: 16px;
+  color: #7e7e7e;
+}
+
+.feature-art .content a{
+  font-size: 16px;
+  color: #67b54b;
+  text-decoration: none;
+}
+
+.features .feature-art .foot {
+  flex: 1;
+  width: 40%;
+  height: 80%;
+}
+
+.features .feature-art .foot img {
+  margin-top: 0;
+  height: 250px;
 }
