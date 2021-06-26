@@ -1,3 +1,7 @@
+body {
+  background-color: #fffbf7;
+}
+
 h2 {
   color: #46484c;
 }
@@ -7,12 +11,19 @@ p {
 }
 
 button {
-  color: #fff;
+  color: white;
   background-color: #025157;
+  font-size: 14px;
+  height: 45px;
+  font-weight: 600;
+  padding: 12px 12px 6px;
+  border-radius: 8px;
 }
 
-body {
-  background-color: #fffbf7;
+a{
+  font-size: 16px;
+  color: #67b54b;
+  text-decoration: none;
 }
 
 .publish {
@@ -124,15 +135,6 @@ li {
   padding: 5% 15%;
 }
 
-.postwork button{
-  color: white;
-  background-color: #025157;
-  font-size: 14px;
-  height: 45px;
-  font-weight: 600;
-  padding: 12px 12px 6px;
-  border-radius: 8px;
-}
 
 .text h1{
   color: #025157;
@@ -219,20 +221,16 @@ main{
 .feature-art .content img{
   width: 50px;
 }
+
 .feature-art .content h3{
   font-size: 25px;
   font-weight:500;
   
 }
+
 .feature-art .content p{
   font-size: 16px;
   color: #7e7e7e;
-}
-
-.feature-art .content a{
-  font-size: 16px;
-  color: #67b54b;
-  text-decoration: none;
 }
 
 .features .feature-art .foot {
@@ -244,4 +242,68 @@ main{
 .features .feature-art .foot img {
   margin-top: 0;
   height: 250px;
+}
+
+.postwork2 .post2-header{
+  text-align: center;
+}
+
+.postwork2 .post2-header h3{
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.postwork2 .post2-header p{
+  max-width: 60%;
+  color: #46484c;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.postwork2 .post2-cards{
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 30px;
+  text-align: center;
+  margin: 0 100px 0 100px; 
+}
+
+.postwork2 .post2-card{
+  background-color:white;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+.postwork2 .post2-card .media {
+  display: flex;
+}
+.postwork2 .post2-card .media .post2-icon {
+  height:25px;
+}
+.postwork2 .post2-card .media .post2-image {
+  height:300px;
+}
+
+.postwork2 .post2-card h3{
+  color: #025157;
+  font-family: "Alegreya";
+  font-size: 30px;
+}
+
+.postwork2 .post2-card p{
+  font-size: 15px;
+  color: #46484c;
+  margin-bottom: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.postwork2 .post2-card a{
+  font-size: 20px;
+  margin-bottom: 40px;
 }
