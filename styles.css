@@ -2,6 +2,9 @@ body {
   background-color: #fffbf7;
 }
 
+h1 {
+  font-size: 60px;
+}
 h2 {
   color: #46484c;
 }
@@ -306,4 +309,65 @@ main{
 .postwork2 .post2-card a{
   font-size: 20px;
   margin-bottom: 40px;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar, .actions{
+    display: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  main{
+    margin-top: 0;
+  }
+
+  .pub .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pub .formulario button {
+    width:20%;
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .publish {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+  .features{
+    display: grid;
+    grid-template: repeat(4, 1fr)/1fr;
+    text-align: center;
+  }
+
+
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
 }
