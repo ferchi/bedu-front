@@ -62,3 +62,17 @@
     color: $light-gray;
   }
 }
+
+@media (max-width: 575px) {
+  .blog {
+    .row {
+      display: grid;
+      .col {
+        float: left;
+        width: 90%;
+        padding: 5% 0%;
+      }
+    }
+  }
+}
+
